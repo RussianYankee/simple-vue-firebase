@@ -1,0 +1,30 @@
+{
+  "name": "vue-firebase-sample-ts",
+  "version": "0.0.1",
+  "description": "sample app to try firebase for db and auth",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Evlampeev",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.4.27",
+    "axios": "^1.6.8"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^20.11.28",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/tsconfig": "^0.5.1",
+    "npm-run-all2": "^6.1.2",
+    "typescript": "~5.4.0",
+    "vite": "^5.1.6",
+    "vue-tsc": "^2.0.6"
+  }
+}
